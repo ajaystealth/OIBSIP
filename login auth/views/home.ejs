@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <video id="background-video" autoplay loop muted>
+            <source src="tunnels.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
+        <div class="top">
+            <h1>New Launch!</h1>
+            <br>
+            <h4>On</h4>
+            <br>
+            <h2 id="end-date">09 September 2028 12:00 AM</h2>
+        <br>
+        </div>
+        <div class="box">
+            <div>
+                <input type="text" readonly>
+                <label for="">Days</label>
+            </div>
+            <div>
+                <input type="text" readonly>
+                <label for="">Hours</label>
+            </div>
+            <div>
+                <input type="text" readonly>
+                <label for="">Minutes</label>
+            </div>
+            <div>
+                <input type="text" readonly>
+                <label for="">Seconds</label>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h3>To Go...</h3>
+        <!-- <button id="toggleButton">Play Music</button> -->
+    <audio id="music" src="glossy-168156.mp3" preload="auto" autoplay loop></audio>
+    <script src="script.js"></script>
+</body>
+</html>
